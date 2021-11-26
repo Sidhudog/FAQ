@@ -4,6 +4,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
+    background-color:white;
 }
 
 .container{
@@ -12,7 +14,6 @@ body{
     align-items: center;
     justify-content: space-around;
     width:500px;
-    background-color:#fffde7;
 }
 
 .lists{
@@ -57,5 +58,28 @@ body{
 .listtitle{
     font-size: 20px;
     font-weight: 800;
+}
+
+#switch{
+    background-color:#fbe9e7;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px black;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    position:absolute;
+    top:10px;
+    right:10px
+}
+
+.dark-body{
+    background-color:#616161;
+    color:white;
+}
+
+.dark-lists{
+    background-color:#29b6f6;
 }
 
